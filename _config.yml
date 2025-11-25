@@ -9,8 +9,8 @@ last_name: Sanchez Ayte
 email: javsan77@gmail.com
 github_username: javsan77
 linkedin_username: javier-sanchez-ayte
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+#contact_note: >
+  #You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
