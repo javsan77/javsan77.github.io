@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://javsan77.github.io/sitemap.xml
