@@ -12,3 +12,22 @@ node_modules/
 vendor
 .idea
 .venv
+
+# Ignorar imágenes del perfil
+assets/img/prof_pic.jpg
+
+# Ignorar la carpeta de imágenes si quieres
+# assets/img/
+
+# Ignorar proyectos Markdown
+_projects/*.md
+
+# Ignorar package-lock si no lo quieres versionar
+package-lock.json
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Node modules (si aplica)
+node_modules/
