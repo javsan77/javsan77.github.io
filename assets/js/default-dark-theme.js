@@ -1,0 +1,1 @@
+!function(){if(null===localStorage.getItem("theme"))localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-theme","dark");else{const e=localStorage.getItem("theme");document.documentElement.setAttribute("data-theme",e)}}();
