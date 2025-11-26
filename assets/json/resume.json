@@ -40,6 +40,78 @@
       "endDate": "2021-11-30",
       "summary": "Working as a full stack developer in the \"Mundo IE\" project: Gamification of digital learning tools for schoolchildren.",
       "highlights": ["PHP", "Code Igniter", "Bootstrap", "Ajax","SQL Server", "MySQL"]
+    },
+    {
+      "name": "National Superintendency of Migration",
+      "position": "Backend Developer",
+      "url": "https://www.gob.pe/migraciones",
+      "startDate": "2020-03-01",
+      "endDate": "2021-02-01",
+      "summary": "Developing and maintaining backend services for the National Superintendency of Migration's digital platforms.",
+      "highlights": ["Java", "Spring Boot", "Rest API","SQL Server", "Cisco Webex", "C#" ]
+    },
+    {
+      "name": "Regional Directorate of Education of Metropolitan Lima",
+      "position": "Web Developer",
+      "url": "https://www.gob.pe/regionlima-drelm",
+      "startDate": "2019-09-01",
+      "endDate": "2017-07-01",
+      "summary": "Design and Development of SIIE-SIMON. This system serves to attend the educational monitoring needs of all educational institutions in Metropolitan Lima",
+      "highlights": ["PHP", "Code Igniter", "Bootstrap", "Ajax","SQL Server", "MySQL"]
+    },
+    {
+      "name": "National Office of Electoral Processes",
+      "position": "Senior Software Engineer",
+      "url": "https://www.gob.pe/onpe",
+      "startDate": "2016-10-01",
+      "endDate": "2017-03-01",
+      "summary": "Maintenance of the Human Resources and IT Equipment Management Modules, used in the deployment of the Decentralized Units for the 2017 Municipal Elections.",
+      "highlights": ["PHP", "Drupal", "MySQL"]
+    },
+    {
+      "name": "National Office of Electoral Processes",
+      "position": "Web Developer",
+      "url": "https://www.gob.pe/onpe",
+      "startDate": "2015-07-01",
+      "endDate": "2016-05-01",
+      "summary": "Development of the Human Resources Management Module used in the deployment of decentralized units for the 2016 Elections.",
+      "highlights": ["PHP", "Drupal", "MySQL"]
+    },
+    {
+      "name": "Condesan",
+      "position": "Web Developer",
+      "url": "https://condesan.org/",
+      "startDate": "2015-05-01",
+      "endDate": "2015-07-30",
+      "summary": " Successful migration of 25 Websites to a new Hosting.",
+      "highlights": ["PHP", "Drupal", "MySQL"]
+    },
+    {
+      "name": "National Water Authority",
+      "position": "Web Developer",
+      "url": "https://www.gob.pe/ana",
+      "startDate": "2015-05-01",
+      "endDate": "2015-06-30",
+      "summary": "Migration of data from the data repository to a new repository (Linux to Windows).",
+      "highlights": ["PHP", "Drupal", "MySQL"]
+    },
+    {
+      "name": "National Water Authority",
+      "position": "Head Of Information Technology",
+      "url": "https://www.gob.pe/sineace",
+      "startDate": "2012-10-01",
+      "endDate": "2014-10-30",
+      "summary": "Management activities: personnel management, development of operational plans for the area.",
+      "highlights": ["PHP", "Drupal", "MySQL"]
+    },
+    {
+      "name": "Roundtable for Dialogue to Combat Poverty MCLCP",
+      "position": "Information Technology Support Manager",
+      "url": "https://www.gob.pe/sineace",
+      "startDate": "2009-01-01",
+      "endDate": "2012-03-30",
+      "summary": "Design and Development of the Statistical Indicators Web System for the 2010 Elections.",
+      "highlights": ["PHP", "Drupal", "MySQL"]
     }
   ],
   "education": [
@@ -52,50 +124,39 @@
       "startDate": "2013-10-01",
       "endDate": "2016-08-01",      
       "courses": ["Project Management", "IT Strategy", "Software Development Management"]
-    }
+    },
+    {
+      "institution": "National University of San Marcos",
+      "location": "Lima, Peru",
+      "url": "https://www.unmsm.edu.pe/",
+      "area": "Electronic Engineeering",
+      "studyType": "Bachiller Degree",
+      "startDate": "1994-04-01",
+      "endDate": "1999-12-30",      
+      "courses": ["Pascal Language", "Digital Electronics" ]
+    }    
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Gemini for Data Scientists and Analysts",
+      "date": "2025-October",
+      "issuer": "Google Cloud Skills Boost",
+      "url": "https://www.skills.google/public_profiles/c5271f86-3420-4ce5-a8c2-74d32bdf9077/badges/19580962",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Select a Google Cloud Database for Your Applications",
+      "date": "2025-October",
+      "issuer": "Google Cloud Skills Boost",
+      "url": "https://www.skills.google/public_profiles/c5271f86-3420-4ce5-a8c2-74d32bdf9077/badges/19604445",
+      "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Vector Search and Embeddings",
+      "date": "2025-October",
+      "issuer": "Google Cloud Skills Boost",
+      "url": "https://www.skills.google/public_profiles/c5271f86-3420-4ce5-a8c2-74d32bdf9077/badges/19798272",
+      "icon": "fa-solid fa-location-dot"
     }
   ],
   "publications": [
