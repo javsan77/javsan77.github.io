@@ -30,7 +30,16 @@
       "startDate": "2023-04-01",
       "endDate": "Present",
       "summary": "Developing and maintaining backend services for the National Superintendency of Migration's digital platforms.",
-      "highlights": ["SQL Server", "Java", "Spring Boot", "Rest API"]
+      "highlights": ["Java", "Spring Boot", "Rest API","SQL Server", "Laravel","PHP"]
+    },
+    {
+      "name": "Regional Directorate of Education of Metropolitan Lima",
+      "position": "Web Developer",
+      "url": "https://www.gob.pe/regionlima-drelm",
+      "startDate": "2021-09-01",
+      "endDate": "2021-11-30",
+      "summary": "Working as a full stack developer in the \"Mundo IE\" project: Gamification of digital learning tools for schoolchildren.",
+      "highlights": ["PHP", "Code Igniter", "Bootstrap", "Ajax","SQL Server", "MySQL"]
     }
   ],
   "education": [

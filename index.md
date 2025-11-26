@@ -27,13 +27,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m Javier Sánchez Ayte, a backend developer with more than 10 years of experience building robust, scalable, and results-driven software solutions. I have worked with technologies such as PHP (Laravel, Drupal, CodeIgniter), Java (Spring Boot), Python, and .NET, integrating complex systems and designing APIs and services for organizations that manage large volumes of data.
+I am an AI Backend Developer with over 10 years of experience designing, building, and maintaining backend systems across diverse technologies — including PHP (Laravel, Drupal, CodeIgniter), Java (Spring Boot), and .NET.
 
-Throughout my career, I’ve been involved in high-impact projects, including integrated human-resources systems, educational platforms, videoconferencing solutions, and national statistical information systems. I specialize in backend architecture, SQL Server and MySQL optimization, process automation, and the design of REST services for enterprise-level applications.
+Over the years, I have led the development of enterprise applications, data-driven APIs, and process automation systems for both the public and private sectors. My work is guided by a strong focus on reliability, scalability, and performance.
 
-I am currently expanding my expertise into the field of Artificial Intelligence and Large Language Models, developing chatbots, training pipelines, and AI-powered applications, aiming to transition into a role as an AI Backend Developer / LLM Engineer.
+I am currently expanding my expertise into the field of Artificial Intelligence, particularly in LLM (Large Language Model) and RAG (Retrieval-Augmented Generation) integration. My goal is to design intelligent backend architectures that combine traditional software engineering with modern AI capabilities — enabling organizations to extract real value from their unstructured data.
 
-I’m passionate about learning, documenting knowledge, and sharing the projects I build. On this website, you’ll find selected work, personal experiments, and ongoing progress across software engineering and artificial intelligence.
+I develop and experiment with Python, FastAPI, and AI frameworks such as LangChain and LlamaIndex, working with vector databases (FAISS, Pinecone) and open-source models (LLaMA, Mistral). My public code is available at: [Visit my github account](https://github.com/javsan77).
+
+I hold a Double Master’s Degree in Information Technology Management (Spain and Peru), and I am passionate about continuous learning, open-source collaboration, and the future of intelligent backend systems.
 
 
 {% comment %}
