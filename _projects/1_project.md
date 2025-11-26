@@ -1,18 +1,51 @@
 ---
 layout: page
-title: project 1
+title: FactCheck XAI-RAG
 description: with background image
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+FactCheck XAI-RAG es un sistema que combina la Generación Aumentada por Recuperación (RAG) con la Explicabilidad (XAI) y la Verificación de Hechos. Su objetivo es proporcionar respuestas confiables y transparentes a preguntas científicas, mitigando las "alucinaciones" de los modelos de lenguaje y mostrando cómo se llegó a la respuesta.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<div align="center">
+  <a href="https://github.com/javsan77/FactCheck-XAI-RAG">Código GitHub</a>
+</div>
+
+
+🔬 FactCheck XAI-RAG: Verificación de Hechos y Explicabilidad en IA
+FactCheck XAI-RAG es un sistema que combina la Generación Aumentada por Recuperación (RAG) con la Explicabilidad (XAI) y la Verificación de Hechos. Su objetivo es proporcionar respuestas confiables y transparentes a preguntas científicas, mitigando las "alucinaciones" de los modelos de lenguaje y mostrando cómo se llegó a la respuesta.
+
+✨ Características Principales
+Respuestas Confiables: Utiliza un corpus científico para generar respuestas basadas en evidencia.
+Detección de Errores: Identifica y alerta sobre el uso de terminología incorrecta o engañosa.
+Puntuación de Confiabilidad: Evalúa qué tan bien la respuesta está respaldada por las fuentes.
+Explicabilidad: Muestra las fuentes utilizadas y por qué una respuesta es considerada confiable o no.
+Interfaz Fácil de Usar: Una interfaz web interactiva para hacer preguntas y ver los resultados.
+⚙️ Cómo Funciona
+El sistema funciona en varias etapas:
+
+Recopilación de Datos: Descarga artículos científicos (ej. de ArXiv) para crear una base de conocimiento.
+Base de Datos Vectorial: Convierte los documentos en "embeddings" (representaciones numéricas) y los almacena en ChromaDB para búsquedas rápidas.
+Sistema RAG: Recupera los fragmentos de texto más relevantes para tu pregunta y los usa para guiar al Modelo de Lenguaje Grande (LLM) en la generación de la respuesta.
+Verificación de Hechos: Analiza la respuesta del LLM en busca de "frases torturadas" y verifica su consistencia con las fuentes.
+Explicabilidad (XAI): Genera resúmenes sobre las fuentes influyentes y los factores de confiabilidad.
+Interfaz de Usuario: Presenta toda esta información de manera clara en una interfaz de Gradio.
+🚀 Instalación y Uso
+Clona el repositorio:
+
+Instala las dependencias: Todas las librerías necesarias se instalan al ejecutar las primeras celdas del notebook de Colab (ej. transformers, langchain, chromadb, gradio).
+
+Ejecuta en Google Colab: Abre el archivo .ipynb en Google Colab y ejecuta todas las celdas secuencialmente. La interfaz web de Gradio se iniciará automáticamente.
+
+💡 Ejemplos de Uso
+Haz preguntas científicas y el sistema te dará una respuesta, junto con un análisis de su confiabilidad y las fuentes utilizadas.
+
+📄 Licencia
+Este proyecto está bajo la Licencia [MIT / Apache 2.0 / etc.].
+
 
     ---
     layout: page
@@ -20,62 +53,3 @@ To give your project a background in the portfolio page, just add the img tag to
     description: a project with a background image
     img: /assets/img/12.jpg
     ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
