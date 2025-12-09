@@ -1,11 +1,12 @@
 ---
 layout: page
 title: FactCheck XAI-RAG
-description: with background image
-img: assets/img/12.jpg
+description: FactCheck XAI-RAG
+img: /assets/img/projects/factcheck-xai-rag/Main.png
 importance: 1
 category: work
-related_publications: false
+related_publications: true
+published: true
 ---
 
 FactCheck XAI-RAG es un sistema que combina la Generación Aumentada por Recuperación (RAG) con la Explicabilidad (XAI) y la Verificación de Hechos. Su objetivo es proporcionar respuestas confiables y transparentes a preguntas científicas, mitigando las "alucinaciones" de los modelos de lenguaje y mostrando cómo se llegó a la respuesta.
@@ -46,10 +47,3 @@ Haz preguntas científicas y el sistema te dará una respuesta, junto con un an�
 📄 Licencia
 Este proyecto está bajo la Licencia [MIT / Apache 2.0 / etc.].
 
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
