@@ -27,9 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an AI Backend Developer with over 10 years of experience designing, building, and maintaining backend systems across diverse technologies — including PHP (Laravel, Drupal, CodeIgniter), Java (Spring Boot), and .NET.
+I am an AI backend developer with experience in designing, building, and maintaining backend systems in various technologies, including PHP (Laravel, Drupal, CodeIgniter), Java (Spring Boot), and .NET.
 
-Over the years, I have led the development of enterprise applications, data-driven APIs, and process automation systems for both the public and private sectors. My work is guided by a strong focus on reliability, scalability, and performance.
+Over the years, I have developed enterprise applications, data-driven APIs, and process automation systems for both the public and private sectors. My work is characterized by a strong focus on reliability, scalability, and performance.
 
 I am currently expanding my expertise into the field of Artificial Intelligence, particularly in LLM (Large Language Model) and RAG (Retrieval-Augmented Generation) integration. My goal is to design intelligent backend architectures that combine traditional software engineering with modern AI capabilities — enabling organizations to extract real value from their unstructured data.
 
