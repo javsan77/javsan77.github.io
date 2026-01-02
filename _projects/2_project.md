@@ -5,7 +5,7 @@ description: A full-stack CRUD
 img: /assets/img/projects/vue-express-postgresql-crud/Main.png
 importance: 2
 category: work
-related_publications: true
+related_publications: false
 published: true
 ---
 

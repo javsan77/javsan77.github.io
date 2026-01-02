@@ -5,7 +5,7 @@ description: FactCheck XAI-RAG
 img: /assets/img/projects/factcheck-xai-rag/Main.png
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 published: true
 ---
 
