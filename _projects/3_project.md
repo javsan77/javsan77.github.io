@@ -9,7 +9,7 @@ related_publications: false
 published: true
 ---
 
-# FastAPI Base API (SQL Server + JWT Auth)
+# FastAPI Base API (SQL Server + JWT Auth) - https://github.com/javsan77/FastAPI-Backend-Base
 
 This repository provides a professional boilerplate for developing APIs with **FastAPI**. It is designed to be modular, scalable, and easily replicable for **Artificial Intelligence** projects that require robust user management, **SQL Server** persistence, and **JWT-based** security.
 
