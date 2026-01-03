@@ -1,7 +1,7 @@
 ---
 layout: page
-title: FastAPI Base API
-description: FastAPI Base API (SQL Server + JWT Auth)
+title: FastAPI ML API - Sentiment Analysis
+description: Professional REST API with Machine Learning Integration
 img: assets/img/projects/FastAPI-ML-API---Sentiment-Analysis/image2.png
 importance: 3
 category: work
