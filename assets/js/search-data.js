@@ -417,9 +417,9 @@ ninja.data = [{
           description: "FastAPI Base API (SQL Server + JWT Auth)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-fastapi-base-api",
-          title: 'FastAPI Base API',
-          description: "FastAPI Base API (SQL Server + JWT Auth)",
+            },},{id: "projects-fastapi-ml-api-sentiment-analysis",
+          title: 'FastAPI ML API - Sentiment Analysis',
+          description: "Professional REST API with Machine Learning Integration",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-9",
