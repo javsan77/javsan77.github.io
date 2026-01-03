@@ -13,15 +13,7 @@ published: true
 
 <div align="center">
 
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Python](https://img.shields.io/badge/python-3.10+-blue.svg?style=for-the-badge&logo=python&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)
-
-**Professional REST API with Machine Learning Integration**
-
-[Features](#-features) • [Quick Start](#-quick-start) • [API Docs](#-api-documentation) • [ML Model](#-machine-learning) 
+(https://github.com/javsan77/FastAPI-ML-API---Sentiment-Analysis)
 
 </div>
 
